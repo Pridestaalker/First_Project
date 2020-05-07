@@ -36,12 +36,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        showList();
         makeApiCall();
 
     }
 
-    private void showList() {
+    private void showList(final List<Pokemon> pokemonList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         recyclerView.setHasFixedSize(true);
@@ -49,12 +48,7 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        final List<String> input = new ArrayList<>();
-        for (int i = 1; i < 10; i++) {
-            input.add("Test" + i);
-        }
-
-        mAdapter = new ListAdapter(input);
+        mAdapter = new ListAdapter(pokemonList);
         recyclerView.setAdapter(mAdapter);
 
         ItemTouchHelper.SimpleCallback simpleItemTouchCallback =
@@ -67,12 +61,15 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onSwiped(RecyclerView.ViewHolder viewHolder, int swipeDir) {
-                        input.remove(viewHolder.getAdapterPosition());
+                        pokemonList.remove(viewHolder.getAdapterPosition());
                         mAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
                     }
                 };
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleItemTouchCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
+
+
+
     }
 
 
@@ -94,9 +91,8 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<RestPokemonResponse> call, Response<RestPokemonResponse> response) {
                         if(response.isSuccessful() && response.body() != null) {
-                            List<Pokemon> championList = response.body().getResults();
-                            Toast.makeText(getApplicationContext(), "API SUCCESS", Toast.LENGTH_SHORT).show();
-
+                            List<Pokemon> pokemonList = response.body().getResults();
+                            showList(pokemonList);
                         } else {
                             showError();
                         }
