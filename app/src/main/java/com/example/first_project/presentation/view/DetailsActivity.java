@@ -35,6 +35,8 @@ public class DetailsActivity extends AppCompatActivity {
         String pokemonJson = intent.getStringExtra("PokemonKey");
         Pokemon pokemon =  Injection.getGson().fromJson(pokemonJson, Pokemon.class);
         showDetails(pokemon);
+
+
     }
 
     private void showDetails(Pokemon pokemon) {
