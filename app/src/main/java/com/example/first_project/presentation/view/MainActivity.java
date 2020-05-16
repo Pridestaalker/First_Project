@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.first_project.Injection;
 import com.example.first_project.R;
 import com.example.first_project.presentation.controller.MainController;
 import com.example.first_project.presentation.model.Pokemon;
@@ -36,11 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
     controller = new MainController(
             this,
-             new GsonBuilder()
-                    .setLenient()
-                    .create(),
-        getSharedPreferences("Pokedex", Context.MODE_PRIVATE)
-
+             Injection.getGson(),
+             Injection.getSharedPreferences(getApplicationContext())
     );
     controller.onStart();
     }
