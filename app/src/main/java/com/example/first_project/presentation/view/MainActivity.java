@@ -1,4 +1,4 @@
-package com.example.first_project;
+package com.example.first_project.presentation.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
@@ -10,12 +10,17 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.first_project.Constants;
+import com.example.first_project.ListAdapter;
+import com.example.first_project.R;
+import com.example.first_project.data.PokeApi;
+import com.example.first_project.presentation.model.Pokemon;
+import com.example.first_project.presentation.model.RestPokemonResponse;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
