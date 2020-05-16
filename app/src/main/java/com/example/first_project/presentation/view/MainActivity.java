@@ -5,17 +5,14 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.first_project.Injection;
 import com.example.first_project.R;
 import com.example.first_project.presentation.controller.MainController;
 import com.example.first_project.presentation.model.Pokemon;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.util.List;
 
@@ -51,7 +48,20 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new ListAdapter(pokemonList);
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        mAdapter = new ListAdapter(pokemonList, new ListAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(Pokemon item) {
+                controller.onItemClick(item);
+
+            }
+        });
         recyclerView.setAdapter(mAdapter);
 
         ItemTouchHelper.SimpleCallback simpleItemTouchCallback =
@@ -76,5 +86,10 @@ public class MainActivity extends AppCompatActivity {
     public void showError() {
 
         Toast.makeText(getApplicationContext(), "API ERROR", Toast.LENGTH_SHORT).show();
+    }
+
+    public void navigateToDetails(Pokemon pokemon) {
+        Toast.makeText(getApplicationContext(), "TODO NAVIGATE", Toast.LENGTH_SHORT).show();
+
     }
 }
