@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -89,7 +90,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navigateToDetails(Pokemon pokemon) {
-        Toast.makeText(getApplicationContext(), "TODO NAVIGATE", Toast.LENGTH_SHORT).show();
+        Intent myIntent = new Intent(MainActivity.this, DetailsActivity.class);
+        myIntent.putExtra("PokemonKey", Injection.getGson().toJson(pokemon));
+        MainActivity.this.startActivity(myIntent);
 
     }
 }
