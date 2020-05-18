@@ -5,39 +5,56 @@
    "results":[
       {
          "name":"bulbasaur",
-         "url":"https://pokeapi.co/api/v2/pokemon/1/"
+         "url":"https://pokeapi.co/api/v2/pokemon/1/",
+         "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/001.png"
       },
       {
          "name":"ivysaur",
-         "url":"https://pokeapi.co/api/v2/pokemon/2/"
+         "url":"https://pokeapi.co/api/v2/pokemon/2/",
+         "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/002.png"
+
       },
       {
          "name":"venusaur",
-         "url":"https://pokeapi.co/api/v2/pokemon/3/"
+         "url":"https://pokeapi.co/api/v2/pokemon/3/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/003.png"
+
       },
       {
          "name":"charmander",
-         "url":"https://pokeapi.co/api/v2/pokemon/4/"
+         "url":"https://pokeapi.co/api/v2/pokemon/4/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/004.png"
+
       },
       {
          "name":"charmeleon",
-         "url":"https://pokeapi.co/api/v2/pokemon/5/"
+         "url":"https://pokeapi.co/api/v2/pokemon/5/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/005.png"
+
       },
       {
          "name":"charizard",
-         "url":"https://pokeapi.co/api/v2/pokemon/6/"
+         "url":"https://pokeapi.co/api/v2/pokemon/6/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/006.png"
+
       },
       {
          "name":"squirtle",
-         "url":"https://pokeapi.co/api/v2/pokemon/7/"
+         "url":"https://pokeapi.co/api/v2/pokemon/7/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/007.png"
+
       },
       {
          "name":"wartortle",
-         "url":"https://pokeapi.co/api/v2/pokemon/8/"
+         "url":"https://pokeapi.co/api/v2/pokemon/8/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/008.png"
+
       },
       {
          "name":"blastoise",
-         "url":"https://pokeapi.co/api/v2/pokemon/9/"
+         "url":"https://pokeapi.co/api/v2/pokemon/9/",
+                  "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/009.png"
+
       }
    ]
 }
