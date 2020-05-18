@@ -2,7 +2,7 @@ package com.example.first_project.presentation.model;
 
 import java.util.List;
 
-public class RestPokemonResponse {
+public class    RestPokemonResponse {
 
     private Integer count;
     private String next;
