@@ -17,7 +17,7 @@ de données, ici nous avons réalisé un Pokedex.
 - Stockage en cache de la liste des élément et détails
 - SplashScreen au démarrage avec logo Pokedex
 - Possibilité de supprimer un élément de la liste en Swipant à droite ou à gauche
-- Design correct (sans plus)
+- Design correct
 
 ## Screens
 
