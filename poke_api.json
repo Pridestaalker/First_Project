@@ -7,8 +7,8 @@
          "name":"bulbasaur",
          "url":"https://pokeapi.co/api/v2/pokemon/1/",
          "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/001.png",
-         "weight":"6.9kg",
-         "height":"0.7m",
+         "weight":"6,9kg",
+         "height":"0,7m",
          "type":"grass"
          
       },
