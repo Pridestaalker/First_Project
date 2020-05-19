@@ -24,11 +24,11 @@ de données, ici nous avons réalisé un Pokedex.
 ### Premier Ecran (SplashScreen)
 
 - Affiche un Pokedex
-<img src="app/Screens/Splash.png" alt="Splash.png">
+<img src="app/Screens/Splash.png" width="1080" height="1280" alt="Splash.png">
 
 ### Second Ecran (Liste RecyclerView)
 
 - Affiche la liste des Pokemon
-<img src="app/Screens/liste pokemon.png" width="200" height="400" alt="liste pokemon.png">
+<img src="app/Screens/liste pokemon.png" width="1080" height="1280" alt="liste pokemon.png">
 
 
