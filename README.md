@@ -29,6 +29,6 @@ de données, ici nous avons réalisé un Pokedex.
 ### Second Ecran (Liste RecyclerView)
 
 - Affiche la liste des Pokemon
-<img src="app/Screens/liste pokemon.png" alt="liste pokemon.png">
+<img src="app/Screens/liste pokemon.png" width="200" height="400" alt="liste pokemon.png">
 
 
