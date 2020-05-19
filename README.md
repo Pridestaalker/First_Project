@@ -34,6 +34,5 @@ de données, ici nous avons réalisé un Pokedex.
 ### Troisième Ecran (Details Elément)
 
 - Affiche le détail d'un élément de la liste
-<img src="app/Screens/Fiche detail pokemon.png" width="540" height="960 alt="Fiche detail pokemon.png">
-
+<img src="app/Screens/Fiche detail pokemon.png" width="540" height="960" alt="Fiche detail pokemon.png">
 
