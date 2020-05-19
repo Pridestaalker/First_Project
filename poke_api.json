@@ -9,7 +9,7 @@
          "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/001.png",
          "weight":"6,9kg",
          "height":"0,7m",
-         "type":"grass"
+         "types":"grass"
          
       },
       {
@@ -18,7 +18,7 @@
          "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/002.png",
          "weight":"13kg",
          "height":"1m",
-         "type":"grass"
+         "types":"grass"
 
       },
       {
@@ -27,16 +27,16 @@
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/003.png",
          "weight":"100kg",
          "height":"2m",
-         "type":"grass"
+         "types":"grass"
 
       },
       {
          "name":"charmander",
          "url":"https://pokeapi.co/api/v2/pokemon/4/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/004.png",
-         "weight":"8,5kg",
-         "height":"0,6m",
-         "type":"fire"
+         "weight":"8.5kg",
+         "height":"0.6m",
+         "types":"fire"
 
       },
       {
@@ -44,17 +44,17 @@
          "url":"https://pokeapi.co/api/v2/pokemon/5/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/005.png",
          "weight":"19kg",
-         "height":"1,1m",
-         "type":"fire"
+         "height":"1.1m",
+         "types":"fire"
 
       },
       {
          "name":"charizard",
          "url":"https://pokeapi.co/api/v2/pokemon/6/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/006.png",
-         "weight":"90,5kg",
-         "height":"1,7m",
-         "type":"fire"
+         "weight":"90.5kg",
+         "height":"1.7m",
+         "types":"fire"
 
       },
       {
@@ -62,7 +62,7 @@
          "url":"https://pokeapi.co/api/v2/pokemon/7/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/007.png",
          "weight":"9kg",
-         "height":"0,5m",
+         "height":"0.5m",
          "type":"water"
 
       },
@@ -70,18 +70,18 @@
          "name":"wartortle",
          "url":"https://pokeapi.co/api/v2/pokemon/8/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/008.png",
-         "weight":"22,5kg",
+         "weight":"22.5kg",
          "height":"1m",
-         "type":"water"
+         "types":"water"
 
       },
       {
          "name":"blastoise",
          "url":"https://pokeapi.co/api/v2/pokemon/9/",
                   "image":"https://raw.githubusercontent.com/Pridestaalker/First_Project/master/app/PokeImages/009.png",
-         "weight":"165,5kg",
-         "height":"1,6m",
-         "type":"water"
+         "weight":"165.5kg",
+         "height":"1.6m",
+         "types":"water"
 
       }
    ]
