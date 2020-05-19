@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">First_Project</string>
+    <string name="app_name">PridePokedex</string>
     <string name="details_text_description">Details Screen</string>
+    <string name="details_text_height">Details Height</string>
+    <string name="details_text_weight">Details Weight</string>
+    <string name="details_text_type">Details Type</string>
 </resources>

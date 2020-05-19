@@ -11,7 +11,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="6dip"
-
         android:contentDescription="TODO"
         android:src="@mipmap/ic_launcher" />
 
@@ -31,7 +30,6 @@
         android:fontFamily="sans-serif"
         android:gravity="center_vertical"
         android:text="Example application"
-        android:textAlignment="viewStart"
         android:textAllCaps="true"
         android:textSize="24sp" />
 
