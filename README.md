@@ -17,6 +17,7 @@ de données, ici nous avons réalisé un Pokedex.
 - Stockage en cache de la liste des élément et détails
 - SplashScreen au démarrage avec logo Pokedex
 - Possibilité de supprimer un élément de la liste en Swipant à droite ou à gauche
+- Design correct (sans plus)
 
 ## Screens
 
@@ -24,4 +25,10 @@ de données, ici nous avons réalisé un Pokedex.
 
 - Affiche un Pokedex
 <img src="app/Screens/Splash.png" alt="Splash.png">
+
+### Second Ecran (Liste RecyclerView)
+
+- Affiche la liste des Pokemon
+<img src="app/Screens/liste pokemon.png" alt="liste pokemon.png">
+
 
