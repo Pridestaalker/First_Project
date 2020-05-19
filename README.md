@@ -31,4 +31,9 @@ de données, ici nous avons réalisé un Pokedex.
 - Affiche la liste des Pokemon
 <img src="app/Screens/liste pokemon.png" width="540" height="960" alt="liste pokemon.png">
 
+### Troisième Ecran (Details Elément)
+
+- Affiche le détail d'un élément de la liste
+<img src="app/Screens/Fiche detail pokemon.png" width="540" height="960 alt="Fiche detail pokemon.png">
+
 
